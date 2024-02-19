@@ -7,31 +7,53 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Age calculator app</title>
-
+  <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+<div class="container"> 
 
-  Day
-  DD
+  <div class="inputs">
 
-  Month
-  MM
+  
 
-  Year
-  YYYY
+  <div class="box">
+  <span class="texts">Day</span>
+  <input class="in_text" type="number" id="day" placeholder="DD" min="1" max="31">
+  </div>
 
-  -- years
-  -- months
-  -- days
+  <div class="box">
+  <span class="texts">MONTH</span>
+  <input class="in_text" type="number" id="day" placeholder="MM" min="1" max="12">
+  </div>
+  <div class="box">
+  <span class="texts">YEAR</span>
+  <input class="in_text" type="number" id="day" placeholder="YYYY" min="0" max="2024">
+  </div>
+</div>
+  
+<hr>
+
+  <div id="result">
+    <div class="age">
+      <p id="years">--</p>
+      <p>years</p>
+    </div>
+    <div class="age">
+      <p id="months">--</p>
+      <p>months</p>
+    </div>
+    <div class="age">
+      <p id="days">--</p>
+      <p>days</p>
+    </div>
+  </div>
+</div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>

@@ -1,0 +1,73 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root { 
+    --purple: hsl(259, 100%, 65%);
+    --light-red: hsl(0, 100%, 67%);
+    --white: hsl(0, 0%, 100%);
+    --off-white: hsl(0, 0%, 94%);
+    --light-grey: hsl(0, 0%, 86%);
+    --smokey-grey: hsl(0, 1%, 44%);
+    --off-black: hsl(0, 0%, 8%);
+    --Font-size: 32px;
+    --font-weight: 700;
+    --font-family: 'Hanken Grotesk', sans-serif;
+}
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body { 
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.container { 
+    background-color: var(--white);
+    display: block;
+    height: 400px;
+    width: 600px;
+    border-radius: 4%;
+    border-bottom-right-radius: 25%;
+    padding: 30px;
+}
+.inputs { 
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    
+
+}
+.box { 
+    display: flex;
+    flex-direction: column;
+}
+
+.in_text { 
+    width: 7rem;
+    height: 3rem;
+    gap: 2rem;
+    font-size: var(--Font-size);
+    font-weight: var(--font-weight);
+}
+.texts { 
+    display: flex;
+}
+#result { 
+    font-size: 4rem;
+    font-weight: var(--font-weight);
+
+}
+.age { 
+    display: flex;
+    gap: 5rem;
+}
+.age p:first-child { 
+    color: purple;
+}
